@@ -1,68 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Run
 
-## Available Scripts
+1) npm install
+2) npm start
+The webiste will be running locally on localhost:3000
 
-In the project directory, you can run:
+## Test
 
-### `yarn start`
+1) npm run test
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Coverage
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1) npm run coverage
+2) Go to coverages sub-folder in your directory, then to 'lcov-report' and then copy the path of index.html file.
+3) Paste the path on any browser and you will be able tos ee the coverage report.
 
-### `yarn test`
+## Elements that exemplify my proficiency
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) An atmoic structure design that will help to accomodate further changes in the website without any additional cost in having to change the entire website.
+2) Handling error in api calls and showing the user that there has been an error and he needs to retry.
+Thus, at no point user interaction is compromised.
+3) The user design is interactive from the user interaction point of view. 
+For example, in the search box as soon as he goes on typing, the list of upcoming movies is filtered side-by-side and not waiting for him to press 'Enter'.
+4) A loader is shown to the user whenever API calls are being made to let him know things are being processed, rather than showing him a blank screen during the process. 
+5) Used React Hooks, a completely new feature of React, that further reduces the system size and helps to increase the performance.
+6) Used SCSS, thus also making sure the css is also re-usable across components and within the same component as well.
+7) Unit testing of almost 100%, shows my proficiency in testing the components and thus reducing errors to a minimal.
+8) API version and base url constants, so that if at any time the url or api version changes, I would have to just change it at one place and not anywhere anytime in future.
 
-### `yarn build`
+## Things I could have done
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1) To try and make testing coverage to 100%. This will reduce the probability of errors close to 0.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Feedback
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To design UI screens in FIGMA or ZEPLIN, that makes it easy for development.
