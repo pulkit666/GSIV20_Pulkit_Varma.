@@ -1,0 +1,18 @@
+@media screen and (min-width: 400px) {
+    .list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+        grid-gap: 24px;
+    }
+}
+
+.error {
+    background: red;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 6px;
+    color: #ffffff;
+    position: absolute;
+    right: 12px;
+    top: 7px;
+}

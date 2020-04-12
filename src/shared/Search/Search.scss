@@ -1,0 +1,26 @@
+    .search-style {
+        height: 36px;
+        width: 60%;
+        padding: 6px 12px 6px 32px;
+        outline: none;
+        background: #D8D8D8;
+        border: none;
+        border-radius: 8px;
+        font-style: Sans-Serif;
+        font-weight: 400;
+        font-size: 14px;
+
+        &:focus~.search-icon {
+            display: none;
+        }
+
+        &:focus~.close-icon {
+            display: inline-block
+        }
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 17px;
+        top: 19px;
+    }
