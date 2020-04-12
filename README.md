@@ -26,6 +26,7 @@ For example, in the search box as soon as he goes on typing, the list of upcomin
 6) Used SCSS, thus also making sure the css is also re-usable across components and within the same component as well.
 7) Unit testing of almost 100%, shows my proficiency in testing the components and thus reducing errors to a minimal.
 8) API version and base url constants, so that if at any time the url or api version changes, I would have to just change it at one place and not anywhere anytime in future.
+9) Use of Typescript with 'strict' equal to 'true; in tsconfig file. Models have been defined everywhere.
 
 ## Things I could have done
 
